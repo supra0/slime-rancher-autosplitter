@@ -7,9 +7,9 @@ Supported game versions:
 
 Currently supported features:
 - Start the timer on new game
+- Split when grabbing keys
 - Split on credits start
 
-Planned features: (in order of priority)
-- Split when grabbing a key
-- Split when opening the Ancient Ruins gate
-- Full support for previous versions of the game that are present on the [SRC leaderboard](https://www.speedrun.com/slime_rancher).
+Planned features:
+- Pink Gordo splitting
+- Feature parity for all versions of the game that are on the [SRC leaderboard](https://www.speedrun.com/slime_rancher).
