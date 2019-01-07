@@ -33,9 +33,9 @@ init {
 }
 
 start {
-  return current.worldTime >= 32403 //check if time has moved  (set to roughly .03 seconds after initial world time on new file)
+  return current.worldTime < 32460 //prevent starting on non-new filesa
   && old.worldTime < current.worldTime //make sure time is moving
-  && current.worldTime < 32460; //prevent starting on non-new files
+  && current.worldTime >= 32402; //check if time has moved  (set to roughly .03 seconds after initial world time on new file)
 
   //NOTE: initial time is 32400, increases by approx. 60 every second (in-game minute)
 }
