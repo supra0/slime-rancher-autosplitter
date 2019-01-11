@@ -1,6 +1,6 @@
 state("SlimeRancher", "1.3.2b") {
   bool creditsFlag : "UnityPlayer.dll", 0x147CD50, 0x0, 0x28, 0x30, 0x78, 0x1E8, 0x28, 0x48, 0x49;
-  int gameState : "mono.dll", 0x281B78, 0x80, 0xA0, 0x100, 0x20, 0x168, 0x10, 0xE4; //i don't know what this is but it's useful
+  //int gameState : "SlimeRancher.exe", 0x7FFADAE2CD50, 0x10; unused as of now + bad address
   int keys : "UnityPlayer.dll", 0x14D4488, 0x50, 0x100, 0x68, 0x18, 0x60, 0x160, 0x70;
   double worldTime : "mono.dll", 0x2685E0, 0xA0, 0x238, 0x0, 0x28, 0x58, 0x30, 0x50;
 }
@@ -33,8 +33,9 @@ init {
 }
 
 start {
-  return current.worldTime < 32460 //prevent starting on non-new files
-  && current.gameState == old.gameState-2; //check if player has gained control
+  return current.worldTime < 32460 //prevent starting on non-new filesa
+  && old.worldTime < current.worldTime //make sure time is moving
+  && current.worldTime >= 32402; //check if time has moved  (set to roughly .03 seconds after initial world time on new file)
 
   //NOTE: initial time is 32400, increases by approx. 60 every second (in-game minute)
 }
