@@ -3,7 +3,7 @@ This is a work-in-progress autosplitter for Slime Rancher for use with Livesplit
 
 Supported game versions:
 - 1.3.0b
-- 1.3.2b
+- 1.3.2b+c
 
 Currently supported features:
 - Start the timer on new game
