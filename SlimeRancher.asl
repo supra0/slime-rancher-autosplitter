@@ -52,16 +52,3 @@ split {
 
   return false;
 }
-
-//DON'T COPY BELOW TEXT INTO GIT REPO
-
-/* Var Notes
---CURRENTLY USED--
-creditsFlag = ProgressDirector.readyForCredits (bool)
-gameState = probably has something to do with Unity internals. not sure what, but it's useful | 2/3 = main menu, 4 = in-game, 5/6 = loading screen (sorta), 5 also = in ranch house???
-worldTime = ???
-keys = PlayerData.keys (int)
-
---MAY BE USED IN FUTURE--
-timePaused = WorldModel.pauseWorldTime (bool)
-*/
