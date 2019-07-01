@@ -1,7 +1,9 @@
-state("SlimeRancher", "1.4.0b") {
-  bool creditsFlag : "UnityPlayer.dll", 0x14D4228, 0x8, 0xD8, 0x98, 0x20, 0x20, 0xB8, 0x58, 0x49;
-  int keys : "UnityPlayer.dll", 0x14D4228, 0x8, 0x8, 0xD8, 0x28, 0x20, 0x38, 0x90;
-  double worldTime : "UnityPlayer.dll", 0x150A528, 0x8, 0x8, 0x48, 0x38, 0x10, 0x28, 0xA0, 0x50;
+//Note: This is a temporary version made for 1.3.2b/c support. Once the master branch is updated to support these versions again, this will be removed
+
+state("SlimeRancher", "1.3.2b/c") {
+  bool creditsFlag : "UnityPlayer.dll", 0x1489200, 0x20, 0x48, 0x90, 0x28, 0x8, 0xB8, 0x138, 0x49;
+  int keys : "UnityPlayer.dll", 0x14D4488, 0x50, 0x100, 0x68, 0x18, 0x60, 0x160, 0x70;
+  double worldTime : "mono.dll", 0x2685E0, 0xA0, 0x238, 0x0, 0x28, 0x58, 0x30, 0x50;
 }
 
 state("SlimeRancher", "1.3.0b") {
@@ -17,13 +19,13 @@ startup {
 }
 
 init {
-  //--Determine game version--// 
+  //--Determine game version--//
   switch(modules.First().ModuleMemorySize) {
     case 0x1718000:
       version = "1.3.0b";
       break;
     case 0xA4000:
-      version = "1.4.0b";
+      version = "1.3.2b/c";
       break;
     default:
       print("Game version not detected or not supported");
@@ -32,7 +34,7 @@ init {
 }
 
 start {
-  return current.worldTime < 32460 //prevent starting on non-new files
+  return current.worldTime < 32460 //prevent starting on non-new filesa
   && old.worldTime < current.worldTime //make sure time is moving
   && current.worldTime >= 32402; //check if time has moved  (set to roughly .03 seconds after initial world time on new file)
 
@@ -44,7 +46,7 @@ split {
     return true;
   }
 
-  if(settings["key_get"] && version == "1.4.0b") {
+  if(settings["key_get"] && version == "1.3.2b/c") {
     if(current.keys == old.keys+1) { //check if a key has been grabbed
       return true;
     }
