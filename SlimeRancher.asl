@@ -52,7 +52,7 @@ update {
 }
 
 start {
-    if (old.worldTime < current.worldTime && current.worldTime >= 32401 && current.worldTime < 32410) {
+    if (old.worldTime < current.worldTime && current.worldTime >= 32402 && current.worldTime < 32410) {
         vars.keysInRun = 0;
         return true;
     }
