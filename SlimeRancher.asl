@@ -1,3 +1,9 @@
+state("SlimeRancher", "1.4.2") {
+    bool creditsFlag: "UnityPlayer.dll", 0x1676308, 0x40, 0x5E0, 0x1D8, 0x0, 0x58, 0x49; //not sure why, but 0x48 is now the position of the playWistfulMusic bool, which is 1 byte before the credits bool. this works in cheat engine but not here?
+    int keys        : "UnityPlayer.dll", 0x168EEA0, 0x8, 0x100, 0x28, 0x28, 0x30, 0x90;
+    double worldTime: "UnityPlayer.dll", 0x168EEA0, 0x8, 0x160, 0x28, 0x40, 0x60, 0x50;
+}
+
 state("SlimeRancher", "1.4.0b") {
     bool creditsFlag: "UnityPlayer.dll", 0x14D4228, 0x8, 0x8, 0x218, 0x28, 0x48, 0x48;
     int keys        : "UnityPlayer.dll", 0x14D4228, 0x8, 0x8, 0x228, 0x28, 0x30, 0x90;
@@ -12,7 +18,7 @@ state("SlimeRancher", "1.3.0b") {
 }
 
 startup {
-    settings.Add("keysplits", false, "1.4.0b ONLY: Split when collecting a new key in a run (non-specific)");
+    settings.Add("keysplits", false, "1.4.0b and 1.4.2 ONLY: Split when collecting a new key in a run (non-specific)");
         settings.Add("key1", false, "Key N° 1", "keysplits");
         settings.Add("key2", false, "Key N° 2", "keysplits");
         settings.Add("key3", false, "Key N° 3", "keysplits");
@@ -25,7 +31,7 @@ startup {
         settings.Add("key10", false, "Key N° 10", "keysplits");
         settings.Add("key11", false, "Key N° 11", "keysplits");
 
-    settings.Add("gatesplits", false, "1.4.0b ONLY: Split when using a key on a gate");
+    settings.Add("gatesplits", false, "1.4.0b and 1.4.2 ONLY: Split when using a key on a gate");
 }
 
 init {
@@ -36,16 +42,19 @@ init {
         case 0xA4000:
             version = "1.4.0b";
             break;
+		case 0xA3000:
+			version = "1.4.2";
+			break;
         default:
             print(">>>>> Game version not detected or not supported.");
             break;
     }
-
+	
     vars.keysInRun = 0;
 }
 
 update {
-    if (old.keys < current.keys && version == "1.4.0b") {
+    if (old.keys < current.keys && (version == "1.4.0b" || version == "1.4.2") ) {
         vars.keysInRun++;
         print(">>>> keysInRun has increased to " + vars.keysInRun);
     }
@@ -57,11 +66,11 @@ start {
         return true;
     }
 
-    //NOTE: initial time is 32400, increases by approx. 60 every second (in-game minute)
+    //NOTE: initial time on new save file is 32400, increases by approx. 60 every second (in-game minute)
 }
 
 split {
-    if (version == "1.4.0b" && current.worldTime > 32400) {
+    if ( (version == "1.4.0b" || version == "1.4.2") && current.worldTime > 32400) {
         return
             old.keys < current.keys && settings["key" + vars.keysInRun.ToString()] ||
             old.keys > current.keys && settings["gatesplits"];
