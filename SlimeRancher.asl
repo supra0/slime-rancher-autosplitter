@@ -1,5 +1,5 @@
 state("SlimeRancher", "1.4.2") {
-    bool creditsFlag: "UnityPlayer.dll", 0x1676308, 0x40, 0x5E0, 0x1D8, 0x0, 0x58, 0x49; //not sure why, but 0x48 is now the position of the playWistfulMusic bool, which is 1 byte before the credits bool. this works in cheat engine but not here?
+    bool creditsFlag: "UnityPlayer.dll", 0x1676308, 0x40, 0x5E0, 0x1D8, 0x0, 0x58, 0x49; //not sure why, but 0x48 is now the position of the playWistfulMusic bool, which is 1 byte before the credits bool
     int keys        : "UnityPlayer.dll", 0x168EEA0, 0x8, 0x100, 0x28, 0x28, 0x30, 0x90;
     double worldTime: "UnityPlayer.dll", 0x168EEA0, 0x8, 0x160, 0x28, 0x40, 0x60, 0x50;
 }
@@ -42,9 +42,9 @@ init {
         case 0xA4000:
             version = "1.4.0b";
             break;
-		case 0xA3000:
-			version = "1.4.2";
-			break;
+	case 0xA3000:
+	    version = "1.4.2";
+	    break;
         default:
             print(">>>>> Game version not detected or not supported.");
             break;
@@ -73,8 +73,9 @@ split {
     if ( (version == "1.4.0b" || version == "1.4.2") && current.worldTime > 32400) {
         return
             old.keys < current.keys && settings["key" + vars.keysInRun.ToString()] ||
-            old.keys > current.keys && settings["gatesplits"];
+            old.keys > current.keys && settings["gatesplits"] ||
+			old.creditsFlag && !current.creditsFlag;
     }
-
-    return current.worldTime > 32400 && old.creditsFlag && !current.creditsFlag;
+	
+	return current.worldTime > 32400 && old.creditsFlag && !current.creditsFlag;
 }
