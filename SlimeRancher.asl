@@ -1,81 +1,99 @@
+state("SlimeRancher", "1.4.1c") {
+	int gameMode         : "UnityPlayer.dll", 0x163AF50, 0x8, 0x170, 0x28, 0x40, 0x88, 0x124;
+	int keys             : "UnityPlayer.dll", 0x163AF50, 0x8, 0x210, 0x28, 0x48, 0x30, 0x38, 0x90;
+	bool readyForCredits : "UnityPlayer.dll", 0x163AF50, 0x8, 0x210, 0x28, 0x48, 0x49;
+	double worldTime     : "UnityPlayer.dll", 0x163AF50, 0x8, 0x210, 0x28, 0x60, 0x50;
+}
+
 state("SlimeRancher", "1.4.2") {
-    bool creditsFlag: "UnityPlayer.dll", 0x168EEA0, 0x8, 0x210, 0x28, 0x48, 0x49;
-    int keys        : "UnityPlayer.dll", 0x168EEA0, 0x8, 0x220, 0x28, 0x30, 0x90;
-    double worldTime: "UnityPlayer.dll", 0x168EEA0, 0x8, 0x210, 0x28, 0x60, 0x50;
+	int gameMode         : "UnityPlayer.dll", 0x168EEA0, 0x8, 0x170, 0x28, 0x40, 0x88, 0x124;
+	int keys             : "UnityPlayer.dll", 0x168EEA0, 0x8, 0x210, 0x28, 0x48, 0x30, 0x38, 0x90;
+	bool readyForCredits : "UnityPlayer.dll", 0x168EEA0, 0x8, 0x210, 0x28, 0x48, 0x49;
+	double worldTime     : "UnityPlayer.dll", 0x168EEA0, 0x8, 0x210, 0x28, 0x60, 0x50;
 }
 
-state("SlimeRancher", "1.4.0b") {
-    bool creditsFlag: "UnityPlayer.dll", 0x14D4228, 0x8, 0x8, 0x218, 0x28, 0x48, 0x48;
-    int keys        : "UnityPlayer.dll", 0x14D4228, 0x8, 0x8, 0x228, 0x28, 0x30, 0x90;
-    double worldTime: "UnityPlayer.dll", 0x14D4228, 0x8, 0x8, 0x218, 0x28, 0x60, 0x50;
-}
-
-state("SlimeRancher", "1.3.0b") {
-    bool creditsFlag: 0x14C9910, 0x0, 0xB8, 0x28, 0x198, 0x150, 0x48;
-    //int gameState : 0x141D330;
-    //int keys      : ""; requires sig scan
-    double worldTime: 0x14C9910, 0x8, 0xF8, 0x28, 0x48, 0xA8, 0x70;
+state("SlimeRancher", "1.4.3") {
+	int gameMode         : "UnityPlayer.dll", 0x17C5508, 0x8, 0x170, 0x28, 0x40, 0x88, 0x124;
+	int keys             : "UnityPlayer.dll", 0x17C5508, 0x8, 0x210, 0x28, 0x48, 0x30, 0x38, 0x90;
+	bool readyForCredits : "UnityPlayer.dll", 0x17C5508, 0x8, 0x210, 0x28, 0x48, 0x49;
+	double worldTime     : "UnityPlayer.dll", 0x17C5508, 0x8, 0x210, 0x28, 0x60, 0x50;
 }
 
 startup {
-    settings.Add("keysplits", false, "1.4.0b and 1.4.2 ONLY: Split when collecting a new key in a run (non-specific)");
-        settings.Add("key1", false, "Key N° 1", "keysplits");
-        settings.Add("key2", false, "Key N° 2", "keysplits");
-        settings.Add("key3", false, "Key N° 3", "keysplits");
-        settings.Add("key4", false, "Key N° 4", "keysplits");
-        settings.Add("key5", false, "Key N° 5", "keysplits");
-        settings.Add("key6", false, "Key N° 6", "keysplits");
-        settings.Add("key7", false, "Key N° 7", "keysplits");
-        settings.Add("key8", false, "Key N° 8", "keysplits");
-        settings.Add("key9", false, "Key N° 9", "keysplits");
-        settings.Add("key10", false, "Key N° 10", "keysplits");
-        settings.Add("key11", false, "Key N° 11", "keysplits");
+	vars.thisGordo = new Dictionary<int, string> {
+		{0x5, "Pink Gordo (Main)"},
+		{0x8, "Pink Gordo (Ring Island)"},
+		{0xB, "Phosphor Gordo"},
+		{0x6, "Tabby Gordo (Reef)"},
+		{0x2, "Tabby Gordo (Beach)"},
+		{0xA, "Honey Gordo"},
+		{0x4, "Hunter Gordo"},
+		{0x1, "Rock Gordo (Cave)"},
+		{0x7, "Rock Gordo (Ash Isle)"},
+		{0xC, "Rad Gordo"},
+		{0x9, "Crystal Gordo"},
+		{0x3, "Quantum Gordo"},
+		{0xE, "Boom Gordo"},
+		{0x0, "Mosaic Gordo"},
+		{0xD, "Tangle Gordo"},
+		{0xF, "Dervish Gordo"}
+	};
 
-    settings.Add("gatesplits", false, "1.4.0b and 1.4.2 ONLY: Split when using a key on a gate");
+	settings.Add("gordoSplits", true, "Split when popping a Gordo:");
+	settings.Add("gateSplits", false, "Split when using a key on a gate");
+
+	foreach (var g in vars.thisGordo)
+		settings.Add(g.Value, true, g.Value, "gordoSplits");
 }
 
 init {
-    switch(modules.First().ModuleMemorySize) {
-        case 0x1718000:
-            version = "1.3.0b";
-            break;
-        case 0xA4000:
-            version = "1.4.0b";
-            break;
-	case 0xA3000:
-	    version = "1.4.2";
-	    break;
-        default:
-            print(">>>>> Game version not detected or not supported.");
-            break;
-    }
-	
-    vars.keysInRun = 0;
-}
+	// MD5 code by CptBrian.
+	string MD5Hash;
+	using (var md5 = System.Security.Cryptography.MD5.Create())
+		using (var s = File.Open(modules.First().FileName, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+			MD5Hash = md5.ComputeHash(s).Select(x => x.ToString("X")).Aggregate((a, b) => a + b);
+	//print("MD5Hash: " + MD5Hash);
 
-update {
-    if (old.keys < current.keys && (version == "1.4.0b" || version == "1.4.2") ) {
-        vars.keysInRun++;
-        print(">>>> keysInRun has increased to " + vars.keysInRun);
-    }
+	int gordoOffset = 0;
+	switch(MD5Hash) {
+		case "D7C5A3D642348A1C4661C69B0501971D": version = "1.4.1c"; gordoOffset = 0x163AF50; break;
+		case "A82CBDAD4AA16341D436FF8F24788DC7": version = "1.4.2"; gordoOffset = 0x168EEA0; break;
+		case "2A7939BF3AB02090C36BD8BDA037E9E2": version = "1.4.3"; gordoOffset = 0x17C5508; break;
+		default: version = "Undetected!"; break;
+	}
+
+	vars.gordoWatchers = new MemoryWatcherList();
+
+	for (int i = 0; i <= 0xF; ++i) {
+		vars.gordoWatchers.Add(new MemoryWatcher<int>(new DeepPointer(
+			"UnityPlayer.dll", gordoOffset, 0x8, 0x170, 0x28, 0x40, 0x88, 0x30, 0x18, 0x30 + i * 0x18, 0x20
+			)) {Name = vars.thisGordo[i]}
+		);
+	}
 }
 
 start {
-    if (old.worldTime < current.worldTime && current.worldTime >= 32402 && current.worldTime < 32410) {
-        vars.keysInRun = 0;
-        return true;
-    }
-
-    //NOTE: initial time on new save file is 32400, increases by approx. 60 every second (in-game minute)
+	if (old.worldTime < current.worldTime && current.worldTime >= 32402 && current.worldTime < 32410) {
+		vars.keysInRun = 0;
+		return true;
+	}
 }
 
 split {
-    if ( (version == "1.4.0b" || version == "1.4.2") && current.worldTime > 32400) {
-        return
-            old.keys < current.keys && settings["key" + vars.keysInRun.ToString()] ||
-            old.keys > current.keys && settings["gatesplits"] ||
-			old.creditsFlag && !current.creditsFlag;
-    }
-	
-	return current.worldTime > 32400 && old.creditsFlag && !current.creditsFlag;
+	if (current.gameMode != 3) {
+		vars.gordoWatchers.UpdateAll(game);
+		for (int i = 0; i <= 0xF; ++i) {
+			string name = vars.thisGordo[i];
+			if (vars.gordoWatchers[name].Changed) {
+				int eatOld = vars.gordoWatchers[name].Old;
+				int eatCurr = vars.gordoWatchers[name].Current;
+				return eatOld > 0 && eatCurr == -1 && settings[name];
+			}
+		}
+	}
+
+	return current.worldTime > 32400 && (
+		old.keys > current.keys && settings["gateSplits"] ||
+		old.readyForCredits && !current.readyForCredits
+	);
 }
