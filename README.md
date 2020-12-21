@@ -4,6 +4,7 @@ This is an auto splitter for Slime Rancher for use with the timing software Live
 * 1.4.3b (current version)
 * 1.4.2
 * 1.4.1c
+
 ###Currently supported features:
 * Start timer when starting a new game
 * Split when Gordo pops (see settings)
