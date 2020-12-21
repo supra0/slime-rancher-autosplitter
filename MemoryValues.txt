@@ -1,0 +1,116 @@
+* ProgressDirector : "UnityPlayer.dll", 0x17C5508, 0x8, 0x210, 0x28, 0x48   * TimeDirector : "UnityPlayer.dll", 0x17C5508, 0x8, 0x210, 0x28, 0x30
+* * 0x28, 0x68 : MailDirector.MailModel,                                    * * 0x84 : pauserCount (int), 0/1; can be used as bool
+*   * 0x10 : allMail (List<Mail>),                                          * * 0x88 : specialPauserCount (int) 0/1; can be used as bool
+*     * 0x10 : items,                                                       *
+*       * 0x18 : count (int),                                               * RegionMember : "UnityPlayer.dll", 0x17C5508, 0x8, 0x210, 0x28, 0x50
+*       * 0x20 : Item[0] (Mail),                                            * * 0x60 : canHibernate (bool),
+*         * 0x10, 0x14 : key.Value (string),                                * * 0x64 : lastMemberCheckPos.x (float),
+*         * 0x18       : type (int),                                        * * 0x68 : lastMemberCheckPos.y (float),
+*                        * 0 = PERSONAL,                                    * * 0x6C : lastMemberCheckPos.z (float),
+*                        * 1 = UPGRADE,                                     * * 0x70 : regionsInitialized (bool),
+*                        * 2 = EXCHANGE                                     * * 0x71 : hibernating (bool)
+*         * 0x1C       : read (bool)                                        *
+*       * 0x28 : Item[1] (Mail)                                             * WorldModel : "UnityPlayer.dll", 0x17C5508, 0x8, 0x210, 0x28, 0x60
+*         * 0x10, 0x14 : key.Value (string),                                * * 0x50 : worldTime (double),
+*         * 0x18       : type (int),                                        * * 0x68 : pauseWorldTime (bool),
+*         * 0x1C       : read (bool)                                        * * 0x70 : lastWorldTime (double),
+*     * 0x18 : size (int)                                                   * * 0x88 : currWeather (double),
+*   * 0x28 : hasPartnerMail (bool),                                         *          * 0 = NONE,
+*   * 0x29 : hasSecretStyleMail (bool),                                     *          * 1 = RAIN
+*   * 0x2A : hasNewMail (bool)                                              * * 0x98 : currFirestormMode (int)
+* *                                                                         *          * 0 = IDLE,
+* * 0x30       : PlayerState,                                               *          * 1 = PREPARING,
+*   * 0x38 : PlayerModel,                                                   *          * 2 = ACTIVE
+*     * 0x28  : currRegionSetId (int),                                      *
+*               * -1 = UNSET,                                               * GameModel : "UnityPlayer.dll", 0x17C5508, 0x8, 0x170, 0x28, 0x40, 0x88
+*               *  0 = HOME,                                                * * 0x30, 0x18 : gordos (Dictionary<string, GordoModel>),
+*               *  1 = DESERT,                                              *   * 0x30 : gordo1.Value,
+*               *  2 = VALLEY,                                              *     * 0x20 : gordoEatenCount (int),
+*               *  3 = VIKTOR_LAB,                                          *     * 0x24 : targetCount (int)
+*               *  4 = SLIMULATIONS                                         *   * 0x48 : gordo2.Value
+*     *                                                                     * * 0x124      : currGameMode (int)
+*     * 0x48  : availUpgrades (List<Upgrade>),                              *                * 0 = CLASSIC,
+*       * 0x10 : items,                                                     *                * 1 = TIME_LIMIT,
+*         * 0x20 : Item[0] (int),                                           *                * 2 = CASUAL,
+*                  *   0 = HEALTH_1,                                        *                * 3 = TIME_LIMIT_V2
+*                  *   1 = HEALTH_2,
+*                  *   2 = HEALTH_3,
+*                  *   3 = ENERGY_1,
+*                  *   4 = ENERGY_2,
+*                  *   5 = ENERGY_3,
+*                  *   6 = AMMO_1,
+*                  *   7 = AMMO_2,
+*                  *   8 = AMMO_3,
+*                  *   9 = JETPACK,
+*                  *  10 = JETPACK_EFFICIENCY,
+*                  *  11 = AIR_BURST,
+*                  *  12 = RUN_EFFICIENCY,
+*                  *  13 = LIQUID_SLOT,
+*                  *  14 = AMMO_4,
+*                  *  15 = HEALTH_4,
+*                  *  16 = RUN_EFFICIENCY_2,
+*                  *  17 = GOLDEN_SURESHOT,
+*                  *  18 = SPARE_KEY,
+*                  * 100 = TREASURE_CRACKER_1,
+*                  * 101 = TREASURE_CRACKER_2,
+*                  * 102 = TREASURE_CRACKER_3,
+*                  * 103 = TREASURE_CRACKER_4
+*         * 0x28 : Item[1] (int),
+*         * 0x30 : Item[2] (int)
+*       * 0x18 : size (int)
+*     *
+*     * 0x58  : unlockedZoneMaps (HashSet<Zone>),
+*       * 0x10 : buckets,
+*         * 0x20 : Item[0] (int),
+*                  * -1 = NONE,
+*                  *  0 = RANCH,
+*                  *  1 = REEF,
+*                  *  2 = QUARRY,
+*                  *  3 = MOSS,
+*                  *  4 = DESERT,
+*                  *  5 = SEA,
+*                  *  7 = RUINS,
+*                  *  8 = RUINS_TRANSITION,
+*                  *  9 = WILDS,
+*                  * 10 = OGDEN_RANCH,
+*                  * 11 = VALLEY,
+*                  * 12 = MOCHI_RANCH,
+*                  * 13 = SLIMULATIONS,
+*                  * 14 = VIKTOR_LAB
+*         * 0x28 : Item[1] (int),
+*         * 0x30 : Item[2] (int)
+*       * 0x30 : count (int),
+*       * 0x34 : lastIndex (int)
+*     *
+*     * 0x74  : currEnergy (float),
+*     * 0x78  : currHealth (float),
+*     * 0x7C  : currRads (float),
+*     * 0x80  : currency (int),
+*     * 0x84  : currencyEverCollected (int),
+*     * 0x90  : keys (int),
+*     * 0xB4  : maxHealth (int),
+*     * 0xB8  : maxEnergy (int),
+*     * 0xBC  : maxRads (int),
+*     * 0xC0  : endGameTime (double?),
+*     * 0xD0  : position.x (float),
+*     * 0xD4  : position.y (float),
+*     * 0xD8  : position.z (float),
+*     * 0xDC  : rotation.x (float),
+*     * 0xE0  : rotation.y (float),
+*     * 0xE4  : rotation.z (float),
+*     * 0xE8  : rotation.w (float),
+*     * 0xF0  : hasJetpack (bool),
+*     * 0xF4  : jetpackEfficiency (float),
+*     * 0xF8  : runEfficiency (float),
+*     * 0x100 : runEnergyDepletionTime (double),
+*     * 0x108 : maxAmmo (int)
+*   *
+*   * 0x88 : isGameOver (bool),
+*   * 0x8C : PointedAtVaccable (bool),
+*   * 0x8D : InGadgetMode (bool),
+*   * 0x90 : ammoMode (int),
+*            * 0 = DEFAULT,
+*            * 1 = NIMBLE_VALLEY
+* *
+* * 0x48       : readyForWistfulMusic (bool),
+* * 0x49       : readyForCredits (bool)
