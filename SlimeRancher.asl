@@ -12,7 +12,7 @@ state("SlimeRancher", "1.4.2") {
 	double worldTime     : "UnityPlayer.dll", 0x168EEA0, 0x8, 0x210, 0x28, 0x60, 0x50;
 }
 
-state("SlimeRancher", "1.4.3") {
+state("SlimeRancher", "1.4.3b") {
 	int gameMode         : "UnityPlayer.dll", 0x17C5508, 0x8, 0x170, 0x28, 0x40, 0x88, 0x124;
 	int keys             : "UnityPlayer.dll", 0x17C5508, 0x8, 0x210, 0x28, 0x48, 0x30, 0x38, 0x90;
 	bool readyForCredits : "UnityPlayer.dll", 0x17C5508, 0x8, 0x210, 0x28, 0x48, 0x49;
@@ -56,32 +56,30 @@ init {
 
 	int gordoOffset = 0;
 	switch(MD5Hash) {
-		case "D7C5A3D642348A1C4661C69B51971D":   version = "1.4.1c"; gordoOffset = 0x163AF50; break;
+		case "D7C5A3D642348A1C4661C69B0501971D": version = "1.4.1c"; gordoOffset = 0x163AF50; break;
 		case "A82CBDAD4AA16341D436FF8F24788DC7": version = "1.4.2"; gordoOffset = 0x168EEA0; break;
-		case "2A7939BF3AB02090C36BD8BDA037E9E2": version = "1.4.3"; gordoOffset = 0x17C5508; break;
+		case "2A7939BF3AB02090C36BD8BDA037E9E2": version = "1.4.3b"; gordoOffset = 0x17C5508; break;
 		default: version = "Undetected!"; break;
 	}
 
 	vars.gordoWatchers = new MemoryWatcherList();
-
 	for (int i = 0; i <= 0xF; ++i) {
-		vars.gordoWatchers.Add(new MemoryWatcher<int>(new DeepPointer(
-			"UnityPlayer.dll", gordoOffset, 0x8, 0x170, 0x28, 0x40, 0x88, 0x30, 0x18, 0x30 + i * 0x18, 0x20
-			)) {Name = vars.thisGordo[i]}
-		);
+		var ptr = new DeepPointer("UnityPlayer.dll", gordoOffset, 0x8, 0x170, 0x28, 0x40, 0x88, 0x30, 0x18, 0x30 + i * 0x18, 0x20);
+		vars.gordoWatchers.Add(new MemoryWatcher<int>(ptr) {Name = vars.thisGordo[i]});
 	}
 }
 
 start {
-	if (old.worldTime < current.worldTime && current.worldTime >= 32402 && current.worldTime < 32410) {
-		vars.keysInRun = 0;
-		return true;
-	}
+	return
+		old.worldTime < current.worldTime &&
+		current.worldTime >= 32402 &&
+		current.worldTime < 32410;
 }
 
 split {
 	if (current.gameMode != 3) {
 		vars.gordoWatchers.UpdateAll(game);
+
 		for (int i = 0; i <= 0xF; ++i) {
 			string name = vars.thisGordo[i];
 			if (vars.gordoWatchers[name].Changed) {
