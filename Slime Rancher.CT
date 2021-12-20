@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="34">
+<CheatTable CheatEngineTableVersion="38">
   <CheatEntries>
     <CheatEntry>
       <ID>177</ID>
       <Description>"GameModel"</Description>
       <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-      <LastState Value="000001791A3E0000" RealAddress="1793BE27088"/>
+      <LastState Value="0000022E994AE780" RealAddress="22EBE8246A8"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>8 Bytes</VariableType>
-      <Address>"UnityPlayer.dll"+17C5508</Address>
+      <Address>"UnityPlayer.dll"+17E1BD8</Address>
       <Offsets>
         <Offset>88</Offset>
         <Offset>40</Offset>
@@ -22,11 +22,11 @@
           <ID>179</ID>
           <Description>"gordos.entries"</Description>
           <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-          <LastState Value="000001794BBE3000" RealAddress="1794BE16DF8"/>
+          <LastState Value="0000022E99647000" RealAddress="22EBBDE6918"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>8 Bytes</VariableType>
-          <Address>"UnityPlayer.dll"+17C5508</Address>
+          <Address>"UnityPlayer.dll"+17E1BD8</Address>
           <Offsets>
             <Offset>18</Offset>
             <Offset>30</Offset>
@@ -40,10 +40,10 @@
             <CheatEntry>
               <ID>180</ID>
               <Description>"mosaic.gordoEatenCount"</Description>
-              <LastState Value="0" RealAddress="1794C4CFE00"/>
+              <LastState Value="6" RealAddress="22EBEF9D950"/>
               <ShowAsSigned>1</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>20</Offset>
                 <Offset>30 + 18 * 0</Offset>
@@ -59,10 +59,10 @@
             <CheatEntry>
               <ID>181</ID>
               <Description>"caveRock.gordoEatenCount"</Description>
-              <LastState Value="0" RealAddress="1794C4CF4A0"/>
+              <LastState Value="0" RealAddress="22EBEF9D020"/>
               <ShowAsSigned>1</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>20</Offset>
                 <Offset>30 + 18 * 1</Offset>
@@ -78,10 +78,10 @@
             <CheatEntry>
               <ID>182</ID>
               <Description>"beachTabby.gordoEatenCount"</Description>
-              <LastState Value="0" RealAddress="1793BB49650"/>
+              <LastState Value="0" RealAddress="22EBEC94B00"/>
               <ShowAsSigned>1</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>20</Offset>
                 <Offset>30 + 18 * 2</Offset>
@@ -97,10 +97,10 @@
             <CheatEntry>
               <ID>183</ID>
               <Description>"quantum.gordoEatenCount"</Description>
-              <LastState Value="0" RealAddress="1793BBE8BC0"/>
+              <LastState Value="6" RealAddress="22EBECA5D40"/>
               <ShowAsSigned>1</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>20</Offset>
                 <Offset>30 + 18 * 3</Offset>
@@ -116,10 +116,10 @@
             <CheatEntry>
               <ID>184</ID>
               <Description>"hunter.gordoEatenCount"</Description>
-              <LastState Value="0" RealAddress="1793BA30D10"/>
+              <LastState Value="0" RealAddress="22EDBABCC20"/>
               <ShowAsSigned>1</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>20</Offset>
                 <Offset>30 + 18 * 4</Offset>
@@ -135,10 +135,10 @@
             <CheatEntry>
               <ID>185</ID>
               <Description>"mainPink.gordoEatenCount"</Description>
-              <LastState Value="0" RealAddress="1791A62C5C0"/>
+              <LastState Value="3" RealAddress="22EDBAD8500"/>
               <ShowAsSigned>1</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>20</Offset>
                 <Offset>30 + 18 * 5</Offset>
@@ -154,10 +154,10 @@
             <CheatEntry>
               <ID>186</ID>
               <Description>"reefTabby.gordoEatenCount"</Description>
-              <LastState Value="0" RealAddress="1791A62C380"/>
+              <LastState Value="0" RealAddress="22EDBAD82C0"/>
               <ShowAsSigned>1</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>20</Offset>
                 <Offset>30 + 18 * 6</Offset>
@@ -173,10 +173,10 @@
             <CheatEntry>
               <ID>187</ID>
               <Description>"isleRock.gordoEatenCount"</Description>
-              <LastState Value="0" RealAddress="1791A62F980"/>
+              <LastState Value="-1" RealAddress="22EDBAE0EC0"/>
               <ShowAsSigned>1</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>20</Offset>
                 <Offset>30 + 18 * 7</Offset>
@@ -192,10 +192,10 @@
             <CheatEntry>
               <ID>188</ID>
               <Description>"ringPink.gordoEatenCount"</Description>
-              <LastState Value="0" RealAddress="1791A62F470"/>
+              <LastState Value="0" RealAddress="22EDBAE09E0"/>
               <ShowAsSigned>1</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>20</Offset>
                 <Offset>30 + 18 * 8</Offset>
@@ -211,10 +211,10 @@
             <CheatEntry>
               <ID>189</ID>
               <Description>"crystal.gordoEatenCount"</Description>
-              <LastState Value="0" RealAddress="1793BD79B90"/>
+              <LastState Value="0" RealAddress="22EDBB58110"/>
               <ShowAsSigned>1</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>20</Offset>
                 <Offset>30 + 18 * 9</Offset>
@@ -230,10 +230,10 @@
             <CheatEntry>
               <ID>190</ID>
               <Description>"honey.gordoEatenCount"</Description>
-              <LastState Value="0" RealAddress="1793BD798C0"/>
+              <LastState Value="0" RealAddress="22EDBB71E30"/>
               <ShowAsSigned>1</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>20</Offset>
                 <Offset>30 + 18 * A</Offset>
@@ -249,10 +249,10 @@
             <CheatEntry>
               <ID>191</ID>
               <Description>"phosphor.gordoEatenCount"</Description>
-              <LastState Value="0" RealAddress="1791A56ADA0"/>
+              <LastState Value="0" RealAddress="22EDBB8D350"/>
               <ShowAsSigned>1</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>20</Offset>
                 <Offset>30 + 18 * B</Offset>
@@ -268,10 +268,10 @@
             <CheatEntry>
               <ID>192</ID>
               <Description>"rad.gordoEatenCount"</Description>
-              <LastState Value="0" RealAddress="1793BA90EC0"/>
+              <LastState Value="0" RealAddress="22EDBBB5470"/>
               <ShowAsSigned>1</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>20</Offset>
                 <Offset>30 + 18 * C</Offset>
@@ -287,10 +287,10 @@
             <CheatEntry>
               <ID>193</ID>
               <Description>"tangle.gordoEatenCount"</Description>
-              <LastState Value="0" RealAddress="1793BA7D6B0"/>
+              <LastState Value="0" RealAddress="22EDBBEB9B0"/>
               <ShowAsSigned>1</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>20</Offset>
                 <Offset>30 + 18 * D</Offset>
@@ -306,10 +306,10 @@
             <CheatEntry>
               <ID>194</ID>
               <Description>"boom.gordoEatenCount"</Description>
-              <LastState Value="0" RealAddress="1793BBFF3E0"/>
+              <LastState Value="0" RealAddress="22EDBBF5C20"/>
               <ShowAsSigned>1</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>20</Offset>
                 <Offset>30 + 18 * E</Offset>
@@ -325,10 +325,10 @@
             <CheatEntry>
               <ID>195</ID>
               <Description>"dervish.gordoEatenCount"</Description>
-              <LastState Value="0" RealAddress="1793B98A080"/>
+              <LastState Value="0" RealAddress="22EDBBF5770"/>
               <ShowAsSigned>1</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>20</Offset>
                 <Offset>30 + 18 * F</Offset>
@@ -346,10 +346,10 @@
         <CheatEntry>
           <ID>178</ID>
           <Description>"currGameMode"</Description>
-          <LastState Value="0" RealAddress="1791A3E0124"/>
+          <LastState Value="0" RealAddress="22E994AE8A4"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
-          <Address>"UnityPlayer.dll"+17C5508</Address>
+          <Address>"UnityPlayer.dll"+17E1BD8</Address>
           <Offsets>
             <Offset>124</Offset>
             <Offset>88</Offset>
@@ -365,11 +365,11 @@
       <ID>100</ID>
       <Description>"ProgressDirector"</Description>
       <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-      <LastState Value="000001794BE01780" RealAddress="1794BFD83C8"/>
+      <LastState Value="0000022EBC05A2A0" RealAddress="22EBEBD0CC8"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>8 Bytes</VariableType>
-      <Address>"UnityPlayer.dll"+17C5508</Address>
+      <Address>"UnityPlayer.dll"+17E1BD8</Address>
       <Offsets>
         <Offset>48</Offset>
         <Offset>28</Offset>
@@ -381,11 +381,11 @@
           <ID>101</ID>
           <Description>"MailDirector.MailModel"</Description>
           <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-          <LastState Value="000001794BDE5000" RealAddress="1794BE08BE8"/>
+          <LastState Value="0000022EBEA96440" RealAddress="22EBC0AE4E8"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>8 Bytes</VariableType>
-          <Address>"UnityPlayer.dll"+17C5508</Address>
+          <Address>"UnityPlayer.dll"+17E1BD8</Address>
           <Offsets>
             <Offset>68</Offset>
             <Offset>28</Offset>
@@ -399,11 +399,11 @@
               <ID>102</ID>
               <Description>"allMail"</Description>
               <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-              <LastState Value="000001794BE09690" RealAddress="1794BDE5010"/>
+              <LastState Value="0000022E98FE4D50" RealAddress="22EBEA96450"/>
               <ShowAsHex>1</ShowAsHex>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>8 Bytes</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>10</Offset>
                 <Offset>68</Offset>
@@ -418,11 +418,11 @@
                   <ID>103</ID>
                   <Description>"items"</Description>
                   <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-                  <LastState Value="000001794C44CCD0" RealAddress="1794BE096A0"/>
+                  <LastState Value="0000022EBE94AA80" RealAddress="22E98FE4D60"/>
                   <ShowAsHex>1</ShowAsHex>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>8 Bytes</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>10</Offset>
                     <Offset>10</Offset>
@@ -437,10 +437,10 @@
                     <CheatEntry>
                       <ID>104</ID>
                       <Description>"count"</Description>
-                      <LastState Value="4" RealAddress="1794C44CCE8"/>
+                      <LastState Value="23" RealAddress="22EBE94AA98"/>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
-                      <Address>"UnityPlayer.dll"+17C5508</Address>
+                      <Address>"UnityPlayer.dll"+17E1BD8</Address>
                       <Offsets>
                         <Offset>18</Offset>
                         <Offset>10</Offset>
@@ -457,11 +457,11 @@
                       <ID>105</ID>
                       <Description>"Item[0]"</Description>
                       <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-                      <LastState Value="000001794C4CF060" RealAddress="1794C44CCF0"/>
+                      <LastState Value="0000022EBECC3C90" RealAddress="22EBE94AAA0"/>
                       <ShowAsHex>1</ShowAsHex>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>8 Bytes</VariableType>
-                      <Address>"UnityPlayer.dll"+17C5508</Address>
+                      <Address>"UnityPlayer.dll"+17E1BD8</Address>
                       <Offsets>
                         <Offset>20</Offset>
                         <Offset>10</Offset>
@@ -477,14 +477,14 @@
                         <CheatEntry>
                           <ID>106</ID>
                           <Description>"key.Value"</Description>
-                          <LastState RealAddress="1791A4E1EB4"/>
+                          <LastState RealAddress="22E996414F4"/>
                           <ShowAsSigned>0</ShowAsSigned>
                           <VariableType>String</VariableType>
                           <Length>128</Length>
                           <Unicode>1</Unicode>
                           <CodePage>0</CodePage>
                           <ZeroTerminate>1</ZeroTerminate>
-                          <Address>"UnityPlayer.dll"+17C5508</Address>
+                          <Address>"UnityPlayer.dll"+17E1BD8</Address>
                           <Offsets>
                             <Offset>14</Offset>
                             <Offset>10</Offset>
@@ -502,10 +502,10 @@
                         <CheatEntry>
                           <ID>107</ID>
                           <Description>"type"</Description>
-                          <LastState Value="0" RealAddress="1794C4CF078"/>
+                          <LastState Value="0" RealAddress="22EBECC3CA8"/>
                           <ShowAsSigned>0</ShowAsSigned>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>"UnityPlayer.dll"+17C5508</Address>
+                          <Address>"UnityPlayer.dll"+17E1BD8</Address>
                           <Offsets>
                             <Offset>18</Offset>
                             <Offset>20</Offset>
@@ -522,13 +522,13 @@
                         <CheatEntry>
                           <ID>108</ID>
                           <Description>"read"</Description>
-                          <LastState Value="0" RealAddress="1794C4CF07C"/>
+                          <LastState Value="1" RealAddress="22EBECC3CAC"/>
                           <ShowAsSigned>0</ShowAsSigned>
                           <VariableType>Binary</VariableType>
                           <BitStart>0</BitStart>
                           <BitLength>1</BitLength>
                           <ShowAsBinary>0</ShowAsBinary>
-                          <Address>"UnityPlayer.dll"+17C5508</Address>
+                          <Address>"UnityPlayer.dll"+17E1BD8</Address>
                           <Offsets>
                             <Offset>1C</Offset>
                             <Offset>20</Offset>
@@ -548,11 +548,11 @@
                       <ID>109</ID>
                       <Description>"Item[1]"</Description>
                       <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-                      <LastState Value="0000000000000000" RealAddress="1794C44CCF8"/>
+                      <LastState Value="0000022EBECC3C60" RealAddress="22EBE94AAA8"/>
                       <ShowAsHex>1</ShowAsHex>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>8 Bytes</VariableType>
-                      <Address>"UnityPlayer.dll"+17C5508</Address>
+                      <Address>"UnityPlayer.dll"+17E1BD8</Address>
                       <Offsets>
                         <Offset>28</Offset>
                         <Offset>10</Offset>
@@ -568,13 +568,14 @@
                         <CheatEntry>
                           <ID>110</ID>
                           <Description>"key.Value"</Description>
+                          <LastState RealAddress="22E99641494"/>
                           <ShowAsSigned>0</ShowAsSigned>
                           <VariableType>String</VariableType>
                           <Length>128</Length>
                           <Unicode>1</Unicode>
                           <CodePage>0</CodePage>
                           <ZeroTerminate>1</ZeroTerminate>
-                          <Address>"UnityPlayer.dll"+17C5508</Address>
+                          <Address>"UnityPlayer.dll"+17E1BD8</Address>
                           <Offsets>
                             <Offset>14</Offset>
                             <Offset>10</Offset>
@@ -592,9 +593,10 @@
                         <CheatEntry>
                           <ID>111</ID>
                           <Description>"type"</Description>
+                          <LastState Value="0" RealAddress="22EBECC3C78"/>
                           <ShowAsSigned>0</ShowAsSigned>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>"UnityPlayer.dll"+17C5508</Address>
+                          <Address>"UnityPlayer.dll"+17E1BD8</Address>
                           <Offsets>
                             <Offset>18</Offset>
                             <Offset>28</Offset>
@@ -611,12 +613,13 @@
                         <CheatEntry>
                           <ID>112</ID>
                           <Description>"read"</Description>
+                          <LastState Value="1" RealAddress="22EBECC3C7C"/>
                           <ShowAsSigned>0</ShowAsSigned>
                           <VariableType>Binary</VariableType>
                           <BitStart>0</BitStart>
                           <BitLength>1</BitLength>
                           <ShowAsBinary>0</ShowAsBinary>
-                          <Address>"UnityPlayer.dll"+17C5508</Address>
+                          <Address>"UnityPlayer.dll"+17E1BD8</Address>
                           <Offsets>
                             <Offset>1C</Offset>
                             <Offset>28</Offset>
@@ -637,10 +640,10 @@
                 <CheatEntry>
                   <ID>113</ID>
                   <Description>"size"</Description>
-                  <LastState Value="1" RealAddress="1794BE096A8"/>
+                  <LastState Value="23" RealAddress="22E98FE4D68"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>18</Offset>
                     <Offset>10</Offset>
@@ -657,13 +660,13 @@
             <CheatEntry>
               <ID>114</ID>
               <Description>"hasPartnerMail"</Description>
-              <LastState Value="0" RealAddress="1794BDE5028"/>
+              <LastState Value="1" RealAddress="22EBEA96468"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Binary</VariableType>
               <BitStart>0</BitStart>
               <BitLength>1</BitLength>
               <ShowAsBinary>0</ShowAsBinary>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>28</Offset>
                 <Offset>68</Offset>
@@ -677,13 +680,13 @@
             <CheatEntry>
               <ID>115</ID>
               <Description>"hasSecretStyleMail"</Description>
-              <LastState Value="0" RealAddress="1794BDE5029"/>
+              <LastState Value="1" RealAddress="22EBEA96469"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Binary</VariableType>
               <BitStart>0</BitStart>
               <BitLength>1</BitLength>
               <ShowAsBinary>0</ShowAsBinary>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>29</Offset>
                 <Offset>68</Offset>
@@ -697,13 +700,13 @@
             <CheatEntry>
               <ID>116</ID>
               <Description>"hasNewMail"</Description>
-              <LastState Value="1" RealAddress="1794BDE502A"/>
+              <LastState Value="0" RealAddress="22EBEA9646A"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Binary</VariableType>
               <BitStart>0</BitStart>
               <BitLength>1</BitLength>
               <ShowAsBinary>0</ShowAsBinary>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>2A</Offset>
                 <Offset>68</Offset>
@@ -720,11 +723,11 @@
           <ID>117</ID>
           <Description>"PlayerState"</Description>
           <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-          <LastState Value="000001794BE0BF20" RealAddress="1794BE017B0"/>
+          <LastState Value="0000022EBE85D210" RealAddress="22EBC05A2D0"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>8 Bytes</VariableType>
-          <Address>"UnityPlayer.dll"+17C5508</Address>
+          <Address>"UnityPlayer.dll"+17E1BD8</Address>
           <Offsets>
             <Offset>30</Offset>
             <Offset>48</Offset>
@@ -737,11 +740,11 @@
               <ID>118</ID>
               <Description>"PlayerModel"</Description>
               <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-              <LastState Value="000001791A3556C0" RealAddress="1794BE0BF58"/>
+              <LastState Value="0000022E9932A6C0" RealAddress="22EBE85D248"/>
               <ShowAsHex>1</ShowAsHex>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>8 Bytes</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>38</Offset>
                 <Offset>30</Offset>
@@ -754,10 +757,10 @@
                 <CheatEntry>
                   <ID>119</ID>
                   <Description>"currRegionSetId"</Description>
-                  <LastState Value="0" RealAddress="1791A3556E8"/>
+                  <LastState Value="0" RealAddress="22E9932A6E8"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>28</Offset>
                     <Offset>38</Offset>
@@ -772,11 +775,11 @@
                   <ID>120</ID>
                   <Description>"availUpgrades"</Description>
                   <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-                  <LastState Value="000001794BE098D0" RealAddress="1791A355708"/>
+                  <LastState Value="0000022EBECC3EA0" RealAddress="22E9932A708"/>
                   <ShowAsHex>1</ShowAsHex>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>8 Bytes</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>48</Offset>
                     <Offset>38</Offset>
@@ -791,11 +794,11 @@
                       <ID>121</ID>
                       <Description>"items"</Description>
                       <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-                      <LastState Value="000001794C495EB0" RealAddress="1794BE098E0"/>
+                      <LastState Value="0000022EBEC91D80" RealAddress="22EBECC3EB0"/>
                       <ShowAsHex>1</ShowAsHex>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>8 Bytes</VariableType>
-                      <Address>"UnityPlayer.dll"+17C5508</Address>
+                      <Address>"UnityPlayer.dll"+17E1BD8</Address>
                       <Offsets>
                         <Offset>10</Offset>
                         <Offset>48</Offset>
@@ -810,10 +813,10 @@
                         <CheatEntry>
                           <ID>122</ID>
                           <Description>"Item[0].value"</Description>
-                          <LastState Value="0" RealAddress="1794C495ED0"/>
+                          <LastState Value="0" RealAddress="22EBEC91DA0"/>
                           <ShowAsSigned>0</ShowAsSigned>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>"UnityPlayer.dll"+17C5508</Address>
+                          <Address>"UnityPlayer.dll"+17E1BD8</Address>
                           <Offsets>
                             <Offset>20</Offset>
                             <Offset>10</Offset>
@@ -829,10 +832,10 @@
                         <CheatEntry>
                           <ID>123</ID>
                           <Description>"Item[1].value"</Description>
-                          <LastState Value="6" RealAddress="1794C495ED8"/>
+                          <LastState Value="6" RealAddress="22EBEC91DA8"/>
                           <ShowAsSigned>0</ShowAsSigned>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>"UnityPlayer.dll"+17C5508</Address>
+                          <Address>"UnityPlayer.dll"+17E1BD8</Address>
                           <Offsets>
                             <Offset>28</Offset>
                             <Offset>10</Offset>
@@ -848,10 +851,10 @@
                         <CheatEntry>
                           <ID>124</ID>
                           <Description>"Item[2].value"</Description>
-                          <LastState Value="13" RealAddress="1794C495EE0"/>
+                          <LastState Value="13" RealAddress="22EBEC91DB0"/>
                           <ShowAsSigned>0</ShowAsSigned>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>"UnityPlayer.dll"+17C5508</Address>
+                          <Address>"UnityPlayer.dll"+17E1BD8</Address>
                           <Offsets>
                             <Offset>30</Offset>
                             <Offset>10</Offset>
@@ -869,10 +872,10 @@
                     <CheatEntry>
                       <ID>125</ID>
                       <Description>"size"</Description>
-                      <LastState Value="5" RealAddress="1794BE098E8"/>
+                      <LastState Value="13" RealAddress="22EBECC3EB8"/>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
-                      <Address>"UnityPlayer.dll"+17C5508</Address>
+                      <Address>"UnityPlayer.dll"+17E1BD8</Address>
                       <Offsets>
                         <Offset>18</Offset>
                         <Offset>48</Offset>
@@ -890,11 +893,11 @@
                   <ID>126</ID>
                   <Description>"unlockedZoneMaps"</Description>
                   <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-                  <LastState Value="000001794BE071E0" RealAddress="1791A355718"/>
+                  <LastState Value="0000022EBBDE4730" RealAddress="22E9932A718"/>
                   <ShowAsHex>1</ShowAsHex>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>8 Bytes</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>58</Offset>
                     <Offset>38</Offset>
@@ -909,11 +912,11 @@
                       <ID>127</ID>
                       <Description>"buckets"</Description>
                       <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-                      <LastState Value="000001794C48E780" RealAddress="1794BE071F0"/>
+                      <LastState Value="0000022EBECC4FC0" RealAddress="22EBBDE4740"/>
                       <ShowAsHex>1</ShowAsHex>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>8 Bytes</VariableType>
-                      <Address>"UnityPlayer.dll"+17C5508</Address>
+                      <Address>"UnityPlayer.dll"+17E1BD8</Address>
                       <Offsets>
                         <Offset>10</Offset>
                         <Offset>58</Offset>
@@ -928,10 +931,10 @@
                         <CheatEntry>
                           <ID>128</ID>
                           <Description>"Item[0].value"</Description>
-                          <LastState Value="1" RealAddress="1794C48E7A0"/>
+                          <LastState Value="4" RealAddress="22EBECC4FE0"/>
                           <ShowAsSigned>0</ShowAsSigned>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>"UnityPlayer.dll"+17C5508</Address>
+                          <Address>"UnityPlayer.dll"+17E1BD8</Address>
                           <Offsets>
                             <Offset>20</Offset>
                             <Offset>10</Offset>
@@ -947,10 +950,10 @@
                         <CheatEntry>
                           <ID>129</ID>
                           <Description>"Item[1].value"</Description>
-                          <LastState Value="0" RealAddress="1794C48E7A8"/>
+                          <LastState Value="0" RealAddress="22EBECC4FE8"/>
                           <ShowAsSigned>0</ShowAsSigned>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>"UnityPlayer.dll"+17C5508</Address>
+                          <Address>"UnityPlayer.dll"+17E1BD8</Address>
                           <Offsets>
                             <Offset>28</Offset>
                             <Offset>10</Offset>
@@ -966,10 +969,10 @@
                         <CheatEntry>
                           <ID>130</ID>
                           <Description>"Item[2].value"</Description>
-                          <LastState Value="285713816" RealAddress="1794C48E7B0"/>
+                          <LastState Value="0" RealAddress="22EBECC4FF0"/>
                           <ShowAsSigned>0</ShowAsSigned>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>"UnityPlayer.dll"+17C5508</Address>
+                          <Address>"UnityPlayer.dll"+17E1BD8</Address>
                           <Offsets>
                             <Offset>30</Offset>
                             <Offset>10</Offset>
@@ -987,10 +990,10 @@
                     <CheatEntry>
                       <ID>131</ID>
                       <Description>"count"</Description>
-                      <LastState Value="1" RealAddress="1794BE07210"/>
+                      <LastState Value="4" RealAddress="22EBBDE4760"/>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
-                      <Address>"UnityPlayer.dll"+17C5508</Address>
+                      <Address>"UnityPlayer.dll"+17E1BD8</Address>
                       <Offsets>
                         <Offset>30</Offset>
                         <Offset>58</Offset>
@@ -1005,10 +1008,10 @@
                     <CheatEntry>
                       <ID>132</ID>
                       <Description>"lastIndex"</Description>
-                      <LastState Value="1" RealAddress="1794BE07214"/>
+                      <LastState Value="4" RealAddress="22EBBDE4764"/>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
-                      <Address>"UnityPlayer.dll"+17C5508</Address>
+                      <Address>"UnityPlayer.dll"+17E1BD8</Address>
                       <Offsets>
                         <Offset>34</Offset>
                         <Offset>58</Offset>
@@ -1025,10 +1028,10 @@
                 <CheatEntry>
                   <ID>133</ID>
                   <Description>"currEnergy"</Description>
-                  <LastState Value="100" RealAddress="1791A355734"/>
+                  <LastState Value="168.8223724" RealAddress="22E9932A734"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Float</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>74</Offset>
                     <Offset>38</Offset>
@@ -1042,10 +1045,10 @@
                 <CheatEntry>
                   <ID>134</ID>
                   <Description>"currHealth"</Description>
-                  <LastState Value="100" RealAddress="1791A355738"/>
+                  <LastState Value="350" RealAddress="22E9932A738"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Float</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>78</Offset>
                     <Offset>38</Offset>
@@ -1059,10 +1062,10 @@
                 <CheatEntry>
                   <ID>135</ID>
                   <Description>"currRads"</Description>
-                  <LastState Value="0" RealAddress="1791A35573C"/>
+                  <LastState Value="0" RealAddress="22E9932A73C"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Float</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>7C</Offset>
                     <Offset>38</Offset>
@@ -1076,10 +1079,10 @@
                 <CheatEntry>
                   <ID>136</ID>
                   <Description>"currency"</Description>
-                  <LastState Value="250" RealAddress="1791A355740"/>
+                  <LastState Value="187515" RealAddress="22E9932A740"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>80</Offset>
                     <Offset>38</Offset>
@@ -1093,10 +1096,10 @@
                 <CheatEntry>
                   <ID>137</ID>
                   <Description>"currencyEverCollected"</Description>
-                  <LastState Value="250" RealAddress="1791A355744"/>
+                  <LastState Value="282495" RealAddress="22E9932A744"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>84</Offset>
                     <Offset>38</Offset>
@@ -1110,10 +1113,10 @@
                 <CheatEntry>
                   <ID>138</ID>
                   <Description>"keys"</Description>
-                  <LastState Value="0" RealAddress="1791A355750"/>
+                  <LastState Value="4" RealAddress="22E9932A750"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>90</Offset>
                     <Offset>38</Offset>
@@ -1127,10 +1130,10 @@
                 <CheatEntry>
                   <ID>139</ID>
                   <Description>"maxHealth"</Description>
-                  <LastState Value="100" RealAddress="1791A355774"/>
+                  <LastState Value="350" RealAddress="22E9932A774"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>B4</Offset>
                     <Offset>38</Offset>
@@ -1144,10 +1147,10 @@
                 <CheatEntry>
                   <ID>140</ID>
                   <Description>"maxEnergy"</Description>
-                  <LastState Value="100" RealAddress="1791A355778"/>
+                  <LastState Value="250" RealAddress="22E9932A778"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>B8</Offset>
                     <Offset>38</Offset>
@@ -1161,10 +1164,10 @@
                 <CheatEntry>
                   <ID>141</ID>
                   <Description>"maxRads"</Description>
-                  <LastState Value="100" RealAddress="1791A35577C"/>
+                  <LastState Value="100" RealAddress="22E9932A77C"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>BC</Offset>
                     <Offset>38</Offset>
@@ -1178,10 +1181,10 @@
                 <CheatEntry>
                   <ID>142</ID>
                   <Description>"endGameTime"</Description>
-                  <LastState Value="0" RealAddress="1791A355780"/>
+                  <LastState Value="0" RealAddress="22E9932A780"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Double</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>C0</Offset>
                     <Offset>38</Offset>
@@ -1202,10 +1205,10 @@
                     <CheatEntry>
                       <ID>144</ID>
                       <Description>"x"</Description>
-                      <LastState Value="42.87563324" RealAddress="1791A355790"/>
+                      <LastState Value="96.83703613" RealAddress="22E9932A790"/>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>Float</VariableType>
-                      <Address>"UnityPlayer.dll"+17C5508</Address>
+                      <Address>"UnityPlayer.dll"+17E1BD8</Address>
                       <Offsets>
                         <Offset>D0</Offset>
                         <Offset>38</Offset>
@@ -1219,10 +1222,10 @@
                     <CheatEntry>
                       <ID>145</ID>
                       <Description>"y"</Description>
-                      <LastState Value="10.39786148" RealAddress="1791A355794"/>
+                      <LastState Value="17.41065025" RealAddress="22E9932A794"/>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>Float</VariableType>
-                      <Address>"UnityPlayer.dll"+17C5508</Address>
+                      <Address>"UnityPlayer.dll"+17E1BD8</Address>
                       <Offsets>
                         <Offset>D4</Offset>
                         <Offset>38</Offset>
@@ -1236,10 +1239,10 @@
                     <CheatEntry>
                       <ID>146</ID>
                       <Description>"z"</Description>
-                      <LastState Value="16.97309875" RealAddress="1791A355798"/>
+                      <LastState Value="-138.5021515" RealAddress="22E9932A798"/>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>Float</VariableType>
-                      <Address>"UnityPlayer.dll"+17C5508</Address>
+                      <Address>"UnityPlayer.dll"+17E1BD8</Address>
                       <Offsets>
                         <Offset>D8</Offset>
                         <Offset>38</Offset>
@@ -1262,10 +1265,10 @@
                     <CheatEntry>
                       <ID>148</ID>
                       <Description>"x"</Description>
-                      <LastState Value="0" RealAddress="1791A35579C"/>
+                      <LastState Value="0" RealAddress="22E9932A79C"/>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>Float</VariableType>
-                      <Address>"UnityPlayer.dll"+17C5508</Address>
+                      <Address>"UnityPlayer.dll"+17E1BD8</Address>
                       <Offsets>
                         <Offset>DC</Offset>
                         <Offset>38</Offset>
@@ -1279,10 +1282,10 @@
                     <CheatEntry>
                       <ID>149</ID>
                       <Description>"y"</Description>
-                      <LastState Value="-0.04105301201" RealAddress="1791A3557A0"/>
+                      <LastState Value="0.8015115857" RealAddress="22E9932A7A0"/>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>Float</VariableType>
-                      <Address>"UnityPlayer.dll"+17C5508</Address>
+                      <Address>"UnityPlayer.dll"+17E1BD8</Address>
                       <Offsets>
                         <Offset>E0</Offset>
                         <Offset>38</Offset>
@@ -1296,10 +1299,10 @@
                     <CheatEntry>
                       <ID>150</ID>
                       <Description>"z"</Description>
-                      <LastState Value="0" RealAddress="1791A3557A4"/>
+                      <LastState Value="0" RealAddress="22E9932A7A4"/>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>Float</VariableType>
-                      <Address>"UnityPlayer.dll"+17C5508</Address>
+                      <Address>"UnityPlayer.dll"+17E1BD8</Address>
                       <Offsets>
                         <Offset>E4</Offset>
                         <Offset>38</Offset>
@@ -1313,10 +1316,10 @@
                     <CheatEntry>
                       <ID>151</ID>
                       <Description>"w"</Description>
-                      <LastState Value="0.9991570115" RealAddress="1791A3557A8"/>
+                      <LastState Value="0.5979792476" RealAddress="22E9932A7A8"/>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>Float</VariableType>
-                      <Address>"UnityPlayer.dll"+17C5508</Address>
+                      <Address>"UnityPlayer.dll"+17E1BD8</Address>
                       <Offsets>
                         <Offset>E8</Offset>
                         <Offset>38</Offset>
@@ -1332,13 +1335,13 @@
                 <CheatEntry>
                   <ID>152</ID>
                   <Description>"hasJetpack"</Description>
-                  <LastState Value="0" RealAddress="1791A3557B0"/>
+                  <LastState Value="1" RealAddress="22E9932A7B0"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Binary</VariableType>
                   <BitStart>0</BitStart>
                   <BitLength>1</BitLength>
                   <ShowAsBinary>0</ShowAsBinary>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>F0</Offset>
                     <Offset>38</Offset>
@@ -1352,10 +1355,10 @@
                 <CheatEntry>
                   <ID>153</ID>
                   <Description>"jetpackEfficiency"</Description>
-                  <LastState Value="1" RealAddress="1791A3557B4"/>
+                  <LastState Value="0.8000000119" RealAddress="22E9932A7B4"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Float</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>F4</Offset>
                     <Offset>38</Offset>
@@ -1369,10 +1372,10 @@
                 <CheatEntry>
                   <ID>154</ID>
                   <Description>"runEfficiency"</Description>
-                  <LastState Value="1" RealAddress="1791A3557B8"/>
+                  <LastState Value="0.5" RealAddress="22E9932A7B8"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Float</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>F8</Offset>
                     <Offset>38</Offset>
@@ -1386,10 +1389,10 @@
                 <CheatEntry>
                   <ID>155</ID>
                   <Description>"runEnergyDepletionTime"</Description>
-                  <LastState Value="0" RealAddress="1791A3557C0"/>
+                  <LastState Value="0" RealAddress="22E9932A7C0"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Double</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>100</Offset>
                     <Offset>38</Offset>
@@ -1403,10 +1406,10 @@
                 <CheatEntry>
                   <ID>156</ID>
                   <Description>"maxAmmo"</Description>
-                  <LastState Value="20" RealAddress="1791A3557C8"/>
+                  <LastState Value="100" RealAddress="22E9932A7C8"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>108</Offset>
                     <Offset>38</Offset>
@@ -1423,11 +1426,11 @@
               <ID>204</ID>
               <Description>"AmmoDict.entries.Item[0].AmmoModel.slots"</Description>
               <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" moAllowManualCollapseAndExpand="1"/>
-              <LastState Value="000001794C44CE60" RealAddress="1794C4CF1F0"/>
+              <LastState Value="0000022EBECC0EB0" RealAddress="22EBECBD0A0"/>
               <ShowAsHex>1</ShowAsHex>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>8 Bytes</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>10</Offset>
                 <Offset>10</Offset>
@@ -1444,10 +1447,9 @@
                 <CheatEntry>
                   <ID>205</ID>
                   <Description>"slot[0].count"</Description>
-                  <LastState Value="10" RealAddress="1794BC95C7C"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>1C</Offset>
                     <Offset>20</Offset>
@@ -1466,10 +1468,9 @@
                 <CheatEntry>
                   <ID>208</ID>
                   <Description>"slot[1].count"</Description>
-                  <LastState Value="8" RealAddress="177D00CFFAC"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>1C</Offset>
                     <Offset>28</Offset>
@@ -1488,10 +1489,9 @@
                 <CheatEntry>
                   <ID>207</ID>
                   <Description>"slot[2].count"</Description>
-                  <LastState Value="5" RealAddress="178E3BB446C"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>1C</Offset>
                     <Offset>30</Offset>
@@ -1510,10 +1510,9 @@
                 <CheatEntry>
                   <ID>206</ID>
                   <Description>"slot[3].count"</Description>
-                  <LastState Value="1" RealAddress="177D020064C"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
-                  <Address>"UnityPlayer.dll"+17C5508</Address>
+                  <Address>"UnityPlayer.dll"+17E1BD8</Address>
                   <Offsets>
                     <Offset>1C</Offset>
                     <Offset>38</Offset>
@@ -1534,13 +1533,13 @@
             <CheatEntry>
               <ID>157</ID>
               <Description>"isGameOver"</Description>
-              <LastState Value="" RealAddress="1794BE0BFA8"/>
+              <LastState Value="" RealAddress="22EBE85D298"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Binary</VariableType>
               <BitStart>0</BitStart>
               <BitLength>1</BitLength>
               <ShowAsBinary>1</ShowAsBinary>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>88</Offset>
                 <Offset>30</Offset>
@@ -1553,13 +1552,13 @@
             <CheatEntry>
               <ID>158</ID>
               <Description>"PointedAtVaccable"</Description>
-              <LastState Value="0" RealAddress="1794BE0BFAC"/>
+              <LastState Value="0" RealAddress="22EBE85D29C"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Binary</VariableType>
               <BitStart>0</BitStart>
               <BitLength>1</BitLength>
               <ShowAsBinary>0</ShowAsBinary>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>8C</Offset>
                 <Offset>30</Offset>
@@ -1572,13 +1571,13 @@
             <CheatEntry>
               <ID>159</ID>
               <Description>"InGadgetMode"</Description>
-              <LastState Value="0" RealAddress="1794BE0BFAD"/>
+              <LastState Value="0" RealAddress="22EBE85D29D"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Binary</VariableType>
               <BitStart>0</BitStart>
               <BitLength>1</BitLength>
               <ShowAsBinary>0</ShowAsBinary>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>8D</Offset>
                 <Offset>30</Offset>
@@ -1591,10 +1590,10 @@
             <CheatEntry>
               <ID>160</ID>
               <Description>"ammoMode"</Description>
-              <LastState Value="0" RealAddress="1794BE0BFB0"/>
+              <LastState Value="0" RealAddress="22EBE85D2A0"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>90</Offset>
                 <Offset>30</Offset>
@@ -1609,13 +1608,13 @@
         <CheatEntry>
           <ID>161</ID>
           <Description>"readyForWistfulMusic"</Description>
-          <LastState Value="" RealAddress="1794BE017C8"/>
+          <LastState Value="" RealAddress="22EBC05A2E8"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Binary</VariableType>
           <BitStart>0</BitStart>
           <BitLength>1</BitLength>
           <ShowAsBinary>1</ShowAsBinary>
-          <Address>"UnityPlayer.dll"+17C5508</Address>
+          <Address>"UnityPlayer.dll"+17E1BD8</Address>
           <Offsets>
             <Offset>48</Offset>
             <Offset>48</Offset>
@@ -1627,13 +1626,13 @@
         <CheatEntry>
           <ID>162</ID>
           <Description>"readyForCredits"</Description>
-          <LastState Value="" RealAddress="1794BE017C9"/>
+          <LastState Value="" RealAddress="22EBC05A2E9"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Binary</VariableType>
           <BitStart>0</BitStart>
           <BitLength>1</BitLength>
           <ShowAsBinary>1</ShowAsBinary>
-          <Address>"UnityPlayer.dll"+17C5508</Address>
+          <Address>"UnityPlayer.dll"+17E1BD8</Address>
           <Offsets>
             <Offset>49</Offset>
             <Offset>48</Offset>
@@ -1648,11 +1647,11 @@
       <ID>171</ID>
       <Description>"WorldModel"</Description>
       <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-      <LastState Value="000001794BDEB0D0" RealAddress="1794BFD83E0"/>
+      <LastState Value="0000022EBEA950D0" RealAddress="22EBEBD0CE0"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>8 Bytes</VariableType>
-      <Address>"UnityPlayer.dll"+17C5508</Address>
+      <Address>"UnityPlayer.dll"+17E1BD8</Address>
       <Offsets>
         <Offset>60</Offset>
         <Offset>28</Offset>
@@ -1663,10 +1662,10 @@
         <CheatEntry>
           <ID>172</ID>
           <Description>"worldTime"</Description>
-          <LastState Value="36710.213081371" RealAddress="1794BDEB120"/>
+          <LastState Value="55319504.7170272" RealAddress="22EBEA95120"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Double</VariableType>
-          <Address>"UnityPlayer.dll"+17C5508</Address>
+          <Address>"UnityPlayer.dll"+17E1BD8</Address>
           <Offsets>
             <Offset>50</Offset>
             <Offset>60</Offset>
@@ -1678,13 +1677,13 @@
         <CheatEntry>
           <ID>173</ID>
           <Description>"pauseWorldTime"</Description>
-          <LastState Value="0" RealAddress="1794BDEB138"/>
+          <LastState Value="0" RealAddress="22EBEA95138"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Binary</VariableType>
           <BitStart>0</BitStart>
           <BitLength>1</BitLength>
           <ShowAsBinary>0</ShowAsBinary>
-          <Address>"UnityPlayer.dll"+17C5508</Address>
+          <Address>"UnityPlayer.dll"+17E1BD8</Address>
           <Offsets>
             <Offset>68</Offset>
             <Offset>60</Offset>
@@ -1696,10 +1695,10 @@
         <CheatEntry>
           <ID>174</ID>
           <Description>"lastWorldTime"</Description>
-          <LastState Value="36710.213081371" RealAddress="1794BDEB140"/>
+          <LastState Value="55319504.7170272" RealAddress="22EBEA95140"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Double</VariableType>
-          <Address>"UnityPlayer.dll"+17C5508</Address>
+          <Address>"UnityPlayer.dll"+17E1BD8</Address>
           <Offsets>
             <Offset>70</Offset>
             <Offset>60</Offset>
@@ -1711,10 +1710,10 @@
         <CheatEntry>
           <ID>175</ID>
           <Description>"currWeather"</Description>
-          <LastState Value="0" RealAddress="1794BDEB158"/>
+          <LastState Value="0" RealAddress="22EBEA95158"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
-          <Address>"UnityPlayer.dll"+17C5508</Address>
+          <Address>"UnityPlayer.dll"+17E1BD8</Address>
           <Offsets>
             <Offset>88</Offset>
             <Offset>60</Offset>
@@ -1726,10 +1725,10 @@
         <CheatEntry>
           <ID>176</ID>
           <Description>"currFirestormMode"</Description>
-          <LastState Value="0" RealAddress="1794BDEB168"/>
+          <LastState Value="0" RealAddress="22EBEA95168"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
-          <Address>"UnityPlayer.dll"+17C5508</Address>
+          <Address>"UnityPlayer.dll"+17E1BD8</Address>
           <Offsets>
             <Offset>98</Offset>
             <Offset>60</Offset>
@@ -1744,11 +1743,11 @@
       <ID>97</ID>
       <Description>"TimeDirector"</Description>
       <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-      <LastState Value="000001794BD9D780" RealAddress="1794BFD83B0"/>
+      <LastState Value="0000022E9970A000" RealAddress="22EBEBD0CB0"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>8 Bytes</VariableType>
-      <Address>"UnityPlayer.dll"+17C5508</Address>
+      <Address>"UnityPlayer.dll"+17E1BD8</Address>
       <Offsets>
         <Offset>30</Offset>
         <Offset>28</Offset>
@@ -1759,13 +1758,13 @@
         <CheatEntry>
           <ID>98</ID>
           <Description>"pauserCount"</Description>
-          <LastState Value="1" RealAddress="1794BD9D804"/>
+          <LastState Value="1" RealAddress="22E9970A084"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Binary</VariableType>
           <BitStart>0</BitStart>
           <BitLength>1</BitLength>
           <ShowAsBinary>0</ShowAsBinary>
-          <Address>"UnityPlayer.dll"+17C5508</Address>
+          <Address>"UnityPlayer.dll"+17E1BD8</Address>
           <Offsets>
             <Offset>84</Offset>
             <Offset>30</Offset>
@@ -1777,13 +1776,13 @@
         <CheatEntry>
           <ID>99</ID>
           <Description>"specialPauserCount"</Description>
-          <LastState Value="0" RealAddress="1794BD9D808"/>
+          <LastState Value="0" RealAddress="22E9970A088"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Binary</VariableType>
           <BitStart>0</BitStart>
           <BitLength>1</BitLength>
           <ShowAsBinary>0</ShowAsBinary>
-          <Address>"UnityPlayer.dll"+17C5508</Address>
+          <Address>"UnityPlayer.dll"+17E1BD8</Address>
           <Offsets>
             <Offset>88</Offset>
             <Offset>30</Offset>
@@ -1798,11 +1797,11 @@
       <ID>163</ID>
       <Description>"RegionMember"</Description>
       <Options moAlwaysHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-      <LastState Value="000001794BFBCAA0" RealAddress="1794BFD83D0"/>
+      <LastState Value="0000022EBEBB3820" RealAddress="22EBEBD0CD0"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>8 Bytes</VariableType>
-      <Address>"UnityPlayer.dll"+17C5508</Address>
+      <Address>"UnityPlayer.dll"+17E1BD8</Address>
       <Offsets>
         <Offset>50</Offset>
         <Offset>28</Offset>
@@ -1813,13 +1812,13 @@
         <CheatEntry>
           <ID>164</ID>
           <Description>"canHibernate"</Description>
-          <LastState Value="0" RealAddress="1794BFBCB00"/>
+          <LastState Value="0" RealAddress="22EBEBB3880"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Binary</VariableType>
           <BitStart>0</BitStart>
           <BitLength>1</BitLength>
           <ShowAsBinary>0</ShowAsBinary>
-          <Address>"UnityPlayer.dll"+17C5508</Address>
+          <Address>"UnityPlayer.dll"+17E1BD8</Address>
           <Offsets>
             <Offset>60</Offset>
             <Offset>50</Offset>
@@ -1838,10 +1837,10 @@
             <CheatEntry>
               <ID>166</ID>
               <Description>"x"</Description>
-              <LastState Value="42.88859177" RealAddress="1794BFBCB04"/>
+              <LastState Value="96.7012558" RealAddress="22EBEBB3884"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>64</Offset>
                 <Offset>50</Offset>
@@ -1853,10 +1852,10 @@
             <CheatEntry>
               <ID>167</ID>
               <Description>"y"</Description>
-              <LastState Value="10.3504982" RealAddress="1794BFBCB08"/>
+              <LastState Value="17.7419529" RealAddress="22EBEBB3888"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>68</Offset>
                 <Offset>50</Offset>
@@ -1868,10 +1867,10 @@
             <CheatEntry>
               <ID>168</ID>
               <Description>"z"</Description>
-              <LastState Value="16.65669632" RealAddress="1794BFBCB0C"/>
+              <LastState Value="-137.9679718" RealAddress="22EBEBB388C"/>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>Float</VariableType>
-              <Address>"UnityPlayer.dll"+17C5508</Address>
+              <Address>"UnityPlayer.dll"+17E1BD8</Address>
               <Offsets>
                 <Offset>6C</Offset>
                 <Offset>50</Offset>
@@ -1885,13 +1884,13 @@
         <CheatEntry>
           <ID>169</ID>
           <Description>"regionsInitialized"</Description>
-          <LastState Value="1" RealAddress="1794BFBCB10"/>
+          <LastState Value="1" RealAddress="22EBEBB3890"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Binary</VariableType>
           <BitStart>0</BitStart>
           <BitLength>1</BitLength>
           <ShowAsBinary>0</ShowAsBinary>
-          <Address>"UnityPlayer.dll"+17C5508</Address>
+          <Address>"UnityPlayer.dll"+17E1BD8</Address>
           <Offsets>
             <Offset>70</Offset>
             <Offset>50</Offset>
@@ -1903,13 +1902,13 @@
         <CheatEntry>
           <ID>170</ID>
           <Description>"hibernating"</Description>
-          <LastState Value="0" RealAddress="1794BFBCB11"/>
+          <LastState Value="0" RealAddress="22EBEBB3891"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Binary</VariableType>
           <BitStart>0</BitStart>
           <BitLength>1</BitLength>
           <ShowAsBinary>0</ShowAsBinary>
-          <Address>"UnityPlayer.dll"+17C5508</Address>
+          <Address>"UnityPlayer.dll"+17E1BD8</Address>
           <Offsets>
             <Offset>71</Offset>
             <Offset>50</Offset>
@@ -6047,8 +6046,8 @@
     </Structure>
     <Structure Name="ProgressDirector.Static" AutoFill="0" AutoCreate="1" DefaultHex="0" AutoDestroy="0" DoNotSaveLocal="0" RLECompression="1" AutoCreateStructsize="4096">
       <Elements>
-        <Element Offset="0" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000000" Description="OffsetOfInstanceIDInCPlusPlusObject" DisplayMethod="Unsigned Integer"/>
         <Element Offset="0" Vartype="Pointer" Bytesize="8" OffsetHex="00000000" Description="progressTypeComparer" DisplayMethod="Unsigned Integer"/>
+        <Element Offset="0" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000000" Description="OffsetOfInstanceIDInCPlusPlusObject" DisplayMethod="Unsigned Integer"/>
         <Element Offset="8" Vartype="Pointer" Bytesize="8" OffsetHex="00000008" Description="progressTrackerIdComparer" DisplayMethod="Unsigned Integer"/>
       </Elements>
     </Structure>
@@ -6508,9 +6507,9 @@
     </Structure>
     <Structure Name="TimeDirector.Static" AutoFill="0" AutoCreate="1" DefaultHex="0" AutoDestroy="0" DoNotSaveLocal="0" RLECompression="1" AutoCreateStructsize="4096">
       <Elements>
-        <Element Offset="0" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000000" Description="OffsetOfInstanceIDInCPlusPlusObject" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="0" Vartype="Pointer" Bytesize="8" OffsetHex="00000000" Description="dynamicParent" DisplayMethod="Unsigned Integer"/>
         <Element Offset="0" Vartype="Pointer" Bytesize="8" OffsetHex="00000000" Description="onUnpauseDelegate" DisplayMethod="Unsigned Integer"/>
+        <Element Offset="0" Vartype="Pointer" Bytesize="8" OffsetHex="00000000" Description="dynamicParent" DisplayMethod="Unsigned Integer"/>
+        <Element Offset="0" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000000" Description="OffsetOfInstanceIDInCPlusPlusObject" DisplayMethod="Unsigned Integer"/>
       </Elements>
     </Structure>
     <Structure Name="TimeDirector+PassedTimeDelegate" AutoFill="0" AutoCreate="1" DefaultHex="0" AutoDestroy="0" DoNotSaveLocal="0" RLECompression="1" AutoCreateStructsize="4096">
@@ -9459,9 +9458,9 @@
     </Structure>
     <Structure Name="MonomiPark.SlimeRancher.Regions.RegionMember.Static" AutoFill="0" AutoCreate="1" DefaultHex="0" AutoDestroy="0" DoNotSaveLocal="0" RLECompression="1" AutoCreateStructsize="4096">
       <Elements>
-        <Element Offset="0" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000000" Description="OffsetOfInstanceIDInCPlusPlusObject" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="0" Vartype="Pointer" Bytesize="8" OffsetHex="00000000" Description="dynamicParent" DisplayMethod="Unsigned Integer"/>
         <Element Offset="0" Vartype="Pointer" Bytesize="8" OffsetHex="00000000" Description="newRegions" DisplayMethod="Unsigned Integer"/>
+        <Element Offset="0" Vartype="Pointer" Bytesize="8" OffsetHex="00000000" Description="dynamicParent" DisplayMethod="Unsigned Integer"/>
+        <Element Offset="0" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000000" Description="OffsetOfInstanceIDInCPlusPlusObject" DisplayMethod="Unsigned Integer"/>
         <Element Offset="8" Vartype="Pointer" Bytesize="8" OffsetHex="00000008" Description="leftRegions" DisplayMethod="Unsigned Integer"/>
       </Elements>
     </Structure>
@@ -9901,8 +9900,8 @@
     </Structure>
     <Structure Name="AccessDoor.Static" AutoFill="0" AutoCreate="1" DefaultHex="0" AutoDestroy="0" DoNotSaveLocal="0" RLECompression="1" AutoCreateStructsize="4096">
       <Elements>
-        <Element Offset="0" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000000" Description="OffsetOfInstanceIDInCPlusPlusObject" DisplayMethod="Unsigned Integer"/>
         <Element Offset="0" Vartype="Pointer" Bytesize="8" OffsetHex="00000000" Description="dynamicParent" DisplayMethod="Unsigned Integer"/>
+        <Element Offset="0" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000000" Description="OffsetOfInstanceIDInCPlusPlusObject" DisplayMethod="Unsigned Integer"/>
       </Elements>
     </Structure>
     <Structure Name="AccessDoor+State" AutoFill="0" AutoCreate="1" DefaultHex="0" AutoDestroy="0" DoNotSaveLocal="0" RLECompression="1" AutoCreateStructsize="4096">
@@ -11419,9 +11418,9 @@
     </Structure>
     <Structure Name="PediaDirector.Static" AutoFill="0" AutoCreate="1" DefaultHex="0" AutoDestroy="0" DoNotSaveLocal="0" RLECompression="1" AutoCreateStructsize="4096">
       <Elements>
-        <Element Offset="0" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000000" Description="OffsetOfInstanceIDInCPlusPlusObject" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="0" Vartype="Pointer" Bytesize="8" OffsetHex="00000000" Description="dynamicParent" DisplayMethod="Unsigned Integer"/>
         <Element Offset="0" Vartype="Pointer" Bytesize="8" OffsetHex="00000000" Description="HIDDEN_ENTRIES" DisplayMethod="Unsigned Integer"/>
+        <Element Offset="0" Vartype="Pointer" Bytesize="8" OffsetHex="00000000" Description="dynamicParent" DisplayMethod="Unsigned Integer"/>
+        <Element Offset="0" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000000" Description="OffsetOfInstanceIDInCPlusPlusObject" DisplayMethod="Unsigned Integer"/>
       </Elements>
     </Structure>
     <Structure Name="RanchLargoTypesTracker" AutoFill="0" AutoCreate="1" DefaultHex="0" AutoDestroy="0" DoNotSaveLocal="0" RLECompression="1" AutoCreateStructsize="4096">
@@ -11690,8 +11689,8 @@
     </Structure>
     <Structure Name="GordoEat.Static" AutoFill="0" AutoCreate="1" DefaultHex="0" AutoDestroy="0" DoNotSaveLocal="0" RLECompression="1" AutoCreateStructsize="4096">
       <Elements>
-        <Element Offset="0" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000000" Description="OffsetOfInstanceIDInCPlusPlusObject" DisplayMethod="Unsigned Integer"/>
         <Element Offset="0" Vartype="Pointer" Bytesize="8" OffsetHex="00000000" Description="dynamicParent" DisplayMethod="Unsigned Integer"/>
+        <Element Offset="0" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000000" Description="OffsetOfInstanceIDInCPlusPlusObject" DisplayMethod="Unsigned Integer"/>
       </Elements>
     </Structure>
     <Structure Name="GordoNearBurstOnGameMode" AutoFill="0" AutoCreate="1" DefaultHex="0" AutoDestroy="0" DoNotSaveLocal="0" RLECompression="1" AutoCreateStructsize="4096">
@@ -12365,9 +12364,9 @@
     </Structure>
     <Structure Name="PlayerState.Static" AutoFill="0" AutoCreate="1" DefaultHex="0" AutoDestroy="0" DoNotSaveLocal="0" RLECompression="1" AutoCreateStructsize="4096">
       <Elements>
-        <Element Offset="0" Vartype="Pointer" Bytesize="8" OffsetHex="00000000" Description="upgradeComparer" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="0" Vartype="Pointer" Bytesize="8" OffsetHex="00000000" Description="dynamicParent" DisplayMethod="Unsigned Integer"/>
         <Element Offset="0" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000000" Description="OffsetOfInstanceIDInCPlusPlusObject" DisplayMethod="Unsigned Integer"/>
+        <Element Offset="0" Vartype="Pointer" Bytesize="8" OffsetHex="00000000" Description="dynamicParent" DisplayMethod="Unsigned Integer"/>
+        <Element Offset="0" Vartype="Pointer" Bytesize="8" OffsetHex="00000000" Description="upgradeComparer" DisplayMethod="Unsigned Integer"/>
         <Element Offset="8" Vartype="Pointer" Bytesize="8" OffsetHex="00000008" Description="NO_LIQUID" DisplayMethod="Unsigned Integer"/>
         <Element Offset="16" Vartype="Pointer" Bytesize="8" OffsetHex="00000010" Description="ONLY_LIQUID" DisplayMethod="Unsigned Integer"/>
         <Element Offset="24" Vartype="Pointer" Bytesize="8" OffsetHex="00000018" Description="PLAYER_AMMO_PREDS" DisplayMethod="Unsigned Integer"/>

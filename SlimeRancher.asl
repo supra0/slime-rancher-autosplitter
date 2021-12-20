@@ -19,6 +19,13 @@ state("SlimeRancher", "1.4.3b") {
 	double worldTime     : "UnityPlayer.dll", 0x17C5508, 0x8, 0x210, 0x28, 0x60, 0x50;
 }
 
+state("SlimeRancher", "1.4.4") {
+	int gameMode         : "UnityPlayer.dll", 0x17E1BD8, 0x8, 0x170, 0x28, 0x40, 0x88, 0x124;
+	int keys             : "UnityPlayer.dll", 0x17E1BD8, 0x8, 0x210, 0x28, 0x48, 0x30, 0x38, 0x90;
+	bool readyForCredits : "UnityPlayer.dll", 0x17E1BD8, 0x8, 0x210, 0x28, 0x48, 0x49;
+	double worldTime     : "UnityPlayer.dll", 0x17E1BD8, 0x8, 0x210, 0x28, 0x60, 0x50;
+}
+
 startup {
 	vars.thisGordo = new Dictionary<int, string> {
 		{0x5, "Pink Gordo (Main)"},
@@ -52,13 +59,14 @@ init {
 	using (var md5 = System.Security.Cryptography.MD5.Create())
 		using (var s = File.Open(modules.First().FileName, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
 			MD5Hash = md5.ComputeHash(s).Select(x => x.ToString("X")).Aggregate((a, b) => a + b);
-	//print("MD5Hash: " + MD5Hash);
+	print("MD5Hash: " + MD5Hash);
 
 	int gordoOffset = 0;
 	switch(MD5Hash) {
 		case "D7C5A3D642348A1C4661C69B51971D"  : version = "1.4.1c"; gordoOffset = 0x163AF50; break;
 		case "A82CBDAD4AA16341D436FF8F24788DC7": version = "1.4.2"; gordoOffset = 0x168EEA0; break;
 		case "2A7939BF3AB02090C36BD8BDA037E9E2": version = "1.4.3b"; gordoOffset = 0x17C5508; break;
+		case "2E1E312AF04AC4E661319536E01BE05F": version = "1.4.4"; break;
 		default: version = "Undetected!"; break;
 	}
 
@@ -78,6 +86,7 @@ start {
 
 split {
 	if (current.gameMode != 3) {
+		print("gameMode: " + current.gameMode);
 		vars.gordoWatchers.UpdateAll(game);
 
 		for (int i = 0; i <= 0xF; ++i) {
@@ -89,9 +98,15 @@ split {
 			}
 		}
 	}
+	
+	print("gameMode: " + current.gameMode);
 
 	return current.worldTime > 32400 && (
 		old.keys > current.keys && settings["gateSplits"] ||
 		old.readyForCredits && !current.readyForCredits
 	);
+}
+
+reset {
+	return current.worldTime == 32400;
 }
