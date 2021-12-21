@@ -66,7 +66,7 @@ init {
 		case "D7C5A3D642348A1C4661C69B51971D"  : version = "1.4.1c"; gordoOffset = 0x163AF50; break;
 		case "A82CBDAD4AA16341D436FF8F24788DC7": version = "1.4.2"; gordoOffset = 0x168EEA0; break;
 		case "2A7939BF3AB02090C36BD8BDA037E9E2": version = "1.4.3b"; gordoOffset = 0x17C5508; break;
-		case "2E1E312AF04AC4E661319536E01BE05F": version = "1.4.4"; break;
+		case "2E1E312AF04AC4E661319536E01BE05F": version = "1.4.4"; gordoOffset = 0x17E1BD8; break;
 		default: version = "Undetected!"; break;
 	}
 
